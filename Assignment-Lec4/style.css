@@ -1,0 +1,24 @@
+
+   body { overflow-x: hidden; }
+    .sidebar { width: 250px; }
+    @media (max-width: 991px) {
+      .sidebar { display: none; }
+    }
+
+.active{
+   --bs-navbar-active-color: #fc3c3c;
+   --bs-nav-tabs-link-active-color: #fc3c3c;
+}
+
+@media screen and (max-width:500px) {
+  .nav-tabs{
+    display: flex;
+    flex-flow: row wrap;  
+    justify-content: space-between;
+}
+  .nav-tabs li{
+    display: flex;
+    flex-flow: row wrap;  
+
+}
+}
